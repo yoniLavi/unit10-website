@@ -24,7 +24,9 @@ header {
 }
 
 main {
-  padding: 1rem;
+  padding: 2rem 1rem;
+  max-width: 1100px;
+  margin: 0 auto;
 }
 
 nav a {
@@ -41,6 +43,19 @@ nav a {
 
 .hero {
   padding: 2rem;
+  margin-bottom: 2rem;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  line-height: 1.2;
+}
+
+article p,
+aside p {
+  margin-top: 0.75rem;
 }
 
 .hero h2 {
