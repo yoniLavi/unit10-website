@@ -21,8 +21,7 @@ body {
     "footer";
 }
 
-/* The <main> landmark stays in the markup for semantics and accessibility,
-   while display: contents lets its children take part in the body grid. */
+/* The <main> landmark stays in the markup for semantics and accessibility, while display: contents lets its children take part in the body grid. */
 main {
   display: contents;
 }
@@ -109,11 +108,11 @@ aside {
   body {
     min-height: 100vh;
     grid:
-      "header     header     header     header"     auto
-      ".          hero       hero       ."          auto
-      ".          content    sidebar    ."          1fr
-      ".          resources  resources  ."          auto
-      "footer     footer     footer     footer"     auto
+      "header     header            header            header"     auto
+      ".          hero              hero              ."          auto
+      ".          content           sidebar           ."          1fr
+      ".          resources         resources         ."          auto
+      "footer     footer            footer            footer"     auto
       / 1fr       minmax(0, 800px)  minmax(0, 300px)  1fr;
   }
 }
