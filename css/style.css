@@ -34,10 +34,13 @@ nav a {
   display: inline-block;
 }
 
-.hero {
+.card {
   background-color: #f4f4f4;
-  padding: 2rem;
   border-radius: 6px;
+}
+
+.hero {
+  padding: 2rem;
 }
 
 .hero h2 {
@@ -55,8 +58,6 @@ nav a {
 article,
 aside {
   padding: 1rem;
-  background: #f4f4f4;
-  border-radius: 6px;
 }
 
 footer {
