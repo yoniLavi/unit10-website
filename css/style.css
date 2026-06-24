@@ -35,11 +35,28 @@ nav a {
 }
 
 .hero {
-  padding: 2rem 1rem;
+  background-color: #f4f4f4;
+  padding: 2rem;
+  border-radius: 6px;
+}
+
+.hero h2 {
+  margin-bottom: 0.5rem;
 }
 
 .content {
   margin-top: 2rem;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 1.5rem;
+  align-items: start;
+}
+
+article,
+aside {
+  padding: 1rem;
+  background: #f4f4f4;
+  border-radius: 6px;
 }
 
 footer {
